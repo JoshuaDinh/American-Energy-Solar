@@ -1,0 +1,68 @@
+.banner-img2 {
+  background-image: linear-gradient(146deg, rgb(5, 4, 4), transparent),
+    url("../../pics/solar-desktop.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  background-position: center;
+}
+
+.banner-box2 {
+  color: white;
+}
+
+.banner-txt {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.banner-hdr {
+  text-align: center;
+  margin-top: 10px;
+  align-items: center;
+  padding-top: 165px;
+  letter-spacing: 1px;
+}
+.banner-hdr > h1 {
+  letter-spacing: 3px;
+  font-size: 3.4em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-hdr > p {
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+.banner-h2 {
+  font-size: 16px;
+}
+
+/* Banner button */
+
+.main-button2 {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  background-color: rgba(112, 13, 20, 1);
+  width: 200px;
+  margin: 0 auto;
+  color: white;
+  text-transform: uppercase;
+}
+.main-button2:hover {
+  border: 1px solid rgba(112, 13, 20, 1);
+  background-color: white;
+  font-weight: 500;
+
+  color: rgba(112, 13, 20);
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 800px) {
+  .banner-hdr > p {
+    font-size: 20px;
+  }
+}

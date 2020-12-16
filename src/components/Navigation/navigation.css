@@ -1,0 +1,32 @@
+.call {
+  float: right;
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  background-color: rgb(143, 16, 16);
+  padding: 6px 12px;
+}
+.call:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.navi-link:hover {
+  text-decoration: none;
+}
+.navi-bar {
+  -webkit-box-shadow: -5px 6px 5px 1px rgba(87, 87, 87, 1);
+  -moz-box-shadow: -5px 6px 5px 1px rgba(87, 87, 87, 1);
+  box-shadow: -5px 6px 5px 1px rgba(87, 87, 87, 1);
+}
+
+@media only screen and (max-width: 993px) {
+  .nav-link {
+    margin: auto;
+    padding: 0.5em 0;
+  }
+
+  .call {
+    display: none;
+  }
+}

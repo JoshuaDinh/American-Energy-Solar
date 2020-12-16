@@ -1,0 +1,454 @@
+.main-logo {
+  width: 100px;
+}
+
+.home-sect-box h1 {
+  color: rgb(143, 16, 16);
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+img {
+  object-fit: contain;
+}
+
+.home-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.home-advantage-box {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.home-sect-box p {
+  text-align: center;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.home-container {
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+.home-sect-box {
+  height: auto;
+  width: 24%;
+  padding: 1em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 30px 0px;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+@media only screen and (max-width: 1030px) {
+  .home-advantage-box {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 995px) {
+  .home-sect-box {
+    flex-direction: column !important;
+    width: 48%;
+  }
+  .request-info {
+    right: 50px;
+  }
+}
+
+.break-home {
+  border-width: 5px;
+}
+
+.content {
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+/* minihome doublebox */
+
+.mini-home-hdr {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: rgb(143, 16, 16);
+  font-size: 44px;
+  padding-top: 2em;
+  font-weight: 600;
+  line-height: 42px;
+}
+.mini-home-p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: grey;
+  font-size: 18px;
+  margin-bottom: 2em;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+/* home multi box banner */
+
+.home-multibox-banner {
+  color: black;
+  background-image: linear-gradient(146deg, rgb(5, 4, 4), transparent),
+    url("../images/2.jpg");
+  background-position: center;
+  padding: 30px;
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-multibox-banner h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.home-multibox-banner h4 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+.home-multibox-banner p {
+  color: black;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 2px;
+  height: 100%;
+  align-items: center;
+  margin-top: 10px;
+  padding: 50px;
+  letter-spacing: 2px;
+}
+
+.aboutBanner {
+  height: 500px;
+}
+
+.aboutBanner > p {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+  display: flex;
+}
+
+/* {second banner button} */
+
+.banner-btn2 {
+  margin-left: 4em;
+  margin-top: 2em;
+  border-radius: 30px;
+  background-color: white;
+  background-image: url("https://thumbs.gfycat.com/AstonishingNaiveArcticduck-small.gif");
+  color: rgb(190, 49, 49);
+  width: 380px;
+  border: none;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: rgb(143, 16, 16);
+  border: 1px solid white;
+  transition: 1.5s;
+  color: white;
+}
+
+/* side-img */
+.side-img-container {
+  margin-top: 5em;
+  background: whitesmoke;
+}
+
+.side-img2 {
+  height: 350px;
+}
+.side-img {
+  height: 350px;
+}
+
+.break {
+  width: 3em;
+  border-width: 3px;
+  background-color: black;
+}
+
+.home-core {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 7px 7px 13px 1px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 13px 1px rgba(50, 50, 50, 0.75);
+  margin: 40px 0;
+}
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.home-coreTxt {
+  width: 50%;
+  display: flex;
+  padding: 2em 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.home-coreTxt > h2 {
+  color: rgb(143, 16, 16);
+  text-align: center;
+}
+.home-coreTxt > h5 {
+  color: grey;
+  padding: 5px 0 15px;
+}
+.home-coreTxt > p {
+  padding: 0 40px;
+}
+.home-coreImg {
+  /* height: 100%; */
+  width: 200px;
+  flex: 1;
+  background-image: linear-gradient(146deg, rgba(112, 13, 20, 0.7), transparent),
+    url("../images/4.jpg");
+  background-size: cover;
+  object-fit: contain;
+  background-position: center;
+}
+.home-coreImg-reverse {
+  /* height: 100%; */
+  width: 200px;
+  flex: 1;
+  background-image: linear-gradient(146deg, rgba(112, 13, 20, 0.7), transparent),
+    url("../images/7.jpg");
+  background-size: cover;
+  object-fit: contain;
+  background-position: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .home-coreTxt {
+    width: 100%;
+  }
+}
+
+footer {
+  padding: 0 15px;
+}
+
+.link2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 4 offset stacked cards */
+.multi-div-row {
+  margin: 45px auto;
+}
+
+.multi-div {
+  height: 412px;
+  background: linear-gradient(146deg, transparent 5%, rgba(112, 13, 20, 1) 98%);
+  padding: 30px 30px 30px 30px;
+  transform: none;
+  transition: 0.5s ease-in-out 0s;
+  /* display: block; */
+  box-sizing: border-box;
+  color: black;
+  -webkit-box-shadow: -8px 9px 14px 0px rgba(204, 204, 204, 1);
+  -moz-box-shadow: -8px 9px 14px 0px rgba(204, 204, 204, 1);
+  box-shadow: -8px 9px 14px 0px rgba(204, 204, 204, 1);
+}
+
+#multi-box-1 {
+  margin-top: 40px;
+}
+
+.multi-div:hover {
+  transform: scale(1.2);
+  box-shadow: 0, 0, 0 black;
+
+  color: rgb(53, 50, 50);
+}
+
+.multi-div {
+  padding: 30px;
+}
+
+.double-box {
+  margin-bottom: 40px;
+}
+
+.multi-div-bkg {
+  background-color: #f6f6f6;
+}
+
+/* 3 ROW CONTAINER Also linked in about.js*/
+
+.three-row-container {
+  background: linear-gradient(
+    146deg,
+    rgb(177, 177, 177),
+    rgba(112, 13, 20, 1) 98%
+  );
+  background: cover;
+  position: relative;
+}
+
+.three-row {
+  border-right: 3px solid white;
+  color: white;
+  padding: 30px;
+}
+.three-row:last-child {
+  border-right: none;
+}
+
+.three-container {
+  width: 90%;
+  margin: 2em auto;
+}
+@media only screen and (max-width: 767px) {
+  .three-row {
+    border-right: none;
+  }
+
+  .multi-div {
+    margin-top: 5px;
+  }
+  #multi-box-1 {
+    margin-top: 5px;
+  }
+}
+
+.home-sect-data {
+  color: rgb(143, 16, 16);
+}
+body {
+  max-width: 100%;
+  background-image: url("https: ; //www.transparenttextures.com/patterns/az-subtle.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+/* photo overlay */
+.ph {
+  margin-top: 50px !important;
+}
+body {
+  font-size: 17px;
+  font-family: Helvetica Neue;
+}
+img {
+  max-width: 100%;
+}
+
+.overlay-text {
+  font-size: 3.5vw;
+  float: right;
+  width: 65%; /*important*/
+  bottom: 21vw; /*important*/
+  padding: 25px;
+  background: #f7f7f7;
+}
+
+/* Thanks: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes */
+.request-info {
+  height: 50px;
+  margin: 0;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #8f1010 5%, rgba(162, 155, 155, 1) 84%);
+  color: white;
+  position: relative;
+  top: 200px;
+  right: 155px;
+  cursor: pointer;
+  width: 45%;
+  z-index: 100;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  outline: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  transition: 0.5s ease-in-out;
+  transform: translateX(-40px);
+}
+
+.contact-displayed {
+  position: relative;
+  top: 0;
+  left: 10px;
+  width: 1080px;
+  height: 400px;
+  background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png") !important;
+  z-index: 10;
+}
+
+.home__advantages {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 35px 0;
+}
+
+.home__advantage-item {
+  width: 18%;
+  height: auto;
+  font-size: 14px;
+  color: black;
+  letter-spacing: 2px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.home__advantage-item:hover {
+  color: #8f1010;
+  background-color: rgb(226, 226, 226);
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .home-sect-box {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .home-advantage-box {
+    display: grid;
+  }
+  .home__advantage-item {
+    width: 100%;
+  }
+}

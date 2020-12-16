@@ -1,0 +1,85 @@
+.contact {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 95px;
+  background: url("https://cdn.pixabay.com/photo/2017/11/11/17/05/solar-system-2939551_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+
+.contact > div {
+  -webkit-box-shadow: 9px 7px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 7px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 7px 15px 0px rgba(0, 0, 0, 0.75);
+  padding: 2em 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+}
+
+.contact__phone > ul,
+.contact__mail > ul,
+.contact__license > ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.contact__email,
+.contact__mail {
+  height: 100%;
+  display: flex;
+}
+
+.contact__email > p {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.contact__mail > ul > li {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+span {
+  color: rgb(143, 16, 16);
+}
+
+@media only screen and (max-width: 1450px) {
+  .contact {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .contact > div {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 810px) {
+  .contact > div {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .contact {
+    padding: 0;
+  }
+}
